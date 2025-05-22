@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleExecutable</key>
+    <string>WindowSwitchRemap</string>
+    <key>CFBundleGetInfoString</key>
+    <string>App to remap Command + Tab to Control + Tab behavior for app switching.</string>
+    <key>CFBundleIconFile</key>
+    <string>WindowSwitchRemap.icns</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.stepeos.WindowSwitchRemap</string> <!-- Use a unique bundle identifier -->
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleLongVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleName</key>
+    <string>WindowSwitchRemap</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleSignature</key>
+    <string>????</string> <!-- You can leave this as it is or fill it in -->
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CSResourcesFileMapped</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>© 2025 Your Company</string>
+
+    <!-- Add this key to make the app a tray app (no dock icon) -->
+    <key>LSUIElement</key>
+    <true/> <!-- No dock icon, only status bar -->
+
+</dict>
+</plist>
